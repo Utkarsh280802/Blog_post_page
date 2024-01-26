@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .blog-post {
+            background-color: #f9fcfd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .post-title {
+            color: #333333;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .post-content {
+            color: #555555;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .author-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .author-name {
+            color: #333333;
+            font-weight: bold;
+        }
+
+        .comment-section {
+            margin-top: 30px;
+        }
+
+        .comments {
+            color: #333333;
+        }
+
+        .comment {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .comment-author {
+            color: #4caf50;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .comment-text {
+            color: #555555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="blog-post">
+        <h1>Bloging.com</h1>
+        <hr>
+        <h4>Today's posts.</h4>
+        <h1 class="post-title">“… No One Will Tell You”</h1>
+        <div class="post-content">
+            <p>“… No One Will Tell You” title works because it promises you that once you click it, you’ll learn
+                something unknown. Also, you’ll no longer be out of the loop..</p>
+            
+        </div>
+
+        <div class="author-info">
+            <img class="author-avatar" src="istockphoto-1132792394-1024x1024.jpg" alt="Author Avatar">
+            <div class="author-name">John Doe</div>
+        </div>
+        <hr>
+
+        <div class="comment-section">
+            <h2 class="comments">Comments</h2>
+            <div class="comment">
+                <div class="comment-author">Jane Smith</div>
+                <div class="comment-text">Great post! I learned a lot from it.</div>
+                <br>
+                <div class="comment-author">Tom Fedrick</div>
+                <div class="comment-text">fablous</div>
+                <br>
+                <div class="comment-author">Stuart Broat</div>
+                <div class="comment-text">Excellent post sir...you made my day</div>
+            </div>
+
+            <!-- More comments can be added here -->
+
+            <!-- Comment Form (Placeholder) -->
+            <form action="#" method="post">
+                <label for="comment">Add your comment:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
